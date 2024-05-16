@@ -1,6 +1,6 @@
 package com.domhallan.learnspringframework;
 
-public class MarioGame {
+public class MarioGame implements GamingConsole {
   public void run() {
     System.out.println("Mario is running");
   }

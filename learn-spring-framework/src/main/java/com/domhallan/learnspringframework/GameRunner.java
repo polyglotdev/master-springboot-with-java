@@ -1,12 +1,13 @@
 package com.domhallan.learnspringframework;
 
 public class GameRunner {
-  MarioGame game;
+  private final GamingConsole game;
 
 
-  public GameRunner(MarioGame game) {
+  public GameRunner(GamingConsole game) {
     this.game = game;
   }
+
 
   public void run() {
     game.run();
